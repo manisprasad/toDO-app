@@ -75,7 +75,7 @@ const ListRender = ({ isEditing, uniqueID, randomColor, onSelect, showOrNot, tas
   }
 
   return (
-    <div className={`flex card2 mr-3  w-auto gap-3  all-list-style items-center`}>
+    <div className={`flex card2 mr-3  w-auto gap-3  all-list-style items-center bg-gray-800`}>
       <div className="check-box"><input onChange={handelCheckBox} type="checkbox" name="" id="" /></div>
       <div className="text-slate-700   font-bold">{uniqueID}</div>
       <div className="flex  flex-col justify-center items-center">
